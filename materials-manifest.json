@@ -1,0 +1,83 @@
+{
+  "source": "https://edu.info.uaic.ro/big-data-analytics/",
+  "retrieved_on": "2026-09-29",
+  "files": [
+    {
+      "path": "courses/1. Intro.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/courses/1.%20Intro.pdf",
+      "bytes": 1130285,
+      "sha256": "71b9e2c8442624b275923b913a10aacb7345f9dcc6d66f4862cc1feadd22fb86",
+      "repository_path": "courses/1. Intro.pdf"
+    },
+    {
+      "path": "courses/10.Graph clustering.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/courses/10.Graph%20clustering.pdf",
+      "bytes": 3146206,
+      "sha256": "cb5909174a29753a3909a3a3fabc1861aca9f00f5d5b90b2b4b69078ebe0e33b",
+      "repository_path": "courses/10.Graph clustering.pdf"
+    },
+    {
+      "path": "courses/11-12.LSH.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/courses/11-12.LSH.pdf",
+      "bytes": 1376796,
+      "sha256": "58df84b9668cb776461e0ee80ab8a15592eeea79944f9c31f08fd7044d423cd6",
+      "repository_path": "courses/11-12.LSH.pdf"
+    },
+    {
+      "path": "courses/2. Hadoop.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/courses/2.%20Hadoop.pdf",
+      "bytes": 7492906,
+      "sha256": "734a1c259422d2f1f6ce1136a9ad53c4d854b2cb0ec370dee4b567b009fabd98",
+      "repository_path": "courses/2. Hadoop.pdf"
+    },
+    {
+      "path": "courses/9. Recommender systems.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/courses/9.%20Recommender%20systems.pdf",
+      "bytes": 2707085,
+      "sha256": "cdbb7849c857b441a1a58de4d13e44dd70bf2fb36cd934b5a99e04791909c57e",
+      "repository_path": "courses/9. Recommender systems.pdf"
+    },
+    {
+      "path": "lab/Homework_Labs_Lecture01.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/lab/Homework_Labs_Lecture01.pdf",
+      "bytes": 115927,
+      "sha256": "7d6b380b8a51eadfdcc468af865a2215413fe2b3e4704ffb7e9e6009254186c9",
+      "repository_path": "lab/Homework_Labs_Lecture01.pdf"
+    },
+    {
+      "path": "lab/Homework_Labs_Lecture02.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/lab/Homework_Labs_Lecture02.pdf",
+      "bytes": 114780,
+      "sha256": "fb56dba896365b661c2d3d69d694214593c14821443e49832f7db74a2ee04397",
+      "repository_path": "lab/Homework_Labs_Lecture02.pdf"
+    },
+    {
+      "path": "lab/Homework_Labs_Lecture03.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/lab/Homework_Labs_Lecture03.pdf",
+      "bytes": 302984,
+      "sha256": "fea967bd28001691e51053f1b7f62515d072b52843a696bad15c520951d0f104",
+      "repository_path": "lab/Homework_Labs_Lecture03.pdf"
+    },
+    {
+      "path": "lab/Homework_Labs_Lecture04.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/lab/Homework_Labs_Lecture04.pdf",
+      "bytes": 180659,
+      "sha256": "b2789a6dd99e6c1b4303cf1e54613841e14149ab6a69aa414ae11418e94c3e05",
+      "repository_path": "lab/Homework_Labs_Lecture04.pdf"
+    },
+    {
+      "path": "lab/Homework_Labs_Lecture06.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/lab/Homework_Labs_Lecture06.pdf",
+      "bytes": 232537,
+      "sha256": "dc8b2efe84b0b4756eae9034279d0cb5ad0fc3caddf9462c2f5d6edb1671995f",
+      "repository_path": "lab/Homework_Labs_Lecture06.pdf"
+    },
+    {
+      "path": "University Training Options_2022.pdf",
+      "url": "https://edu.info.uaic.ro/big-data-analytics/University%20Training%20Options_2022.pdf",
+      "bytes": 594124,
+      "sha256": "81c624b7404c7169b31c5bbb63b5b9997b111db9043c5900a6213d0d1ffac0a1",
+      "repository_path": "resources/University Training Options_2022.pdf"
+    }
+  ]
+}
