@@ -1,58 +1,17 @@
 # MISS2104O1 — Big Data Analytics
 
-Course repository for **Big Data Analytics** at the Faculty of Computer Science, Alexandru Ioan Cuza University of Iași.
+Course materials from [UAIC's Big Data Analytics page](https://edu.info.uaic.ro/big-data-analytics/), downloaded on 29 September 2026 using the supplied course login. See [the course index](COURSE_INDEX.md) for assessment details and external reading.
 
-## Source
+## Materials
 
-Protected course page:
+| Section | Files |
+| --- | --- |
+| Lecture slides | [Introduction](courses/1.%20Intro.pdf), [Hadoop](courses/2.%20Hadoop.pdf), [Recommender systems](courses/9.%20Recommender%20systems.pdf), [Graph clustering](courses/10.Graph%20clustering.pdf), [Locality sensitive hashing](courses/11-12.LSH.pdf) |
+| Lab sheets | [HDFS](lab/Homework_Labs_Lecture01.pdf), [Run MapReduce](lab/Homework_Labs_Lecture02.pdf), [Java MapReduce](lab/Homework_Labs_Lecture03.pdf), [Combiners](lab/Homework_Labs_Lecture04.pdf), [Partitioner](lab/Homework_Labs_Lecture06.pdf) |
+| Other course document | [University Training Options (2022)](resources/University%20Training%20Options_2022.pdf) |
 
-- https://edu.info.uaic.ro/big-data-analytics/
+[materials-manifest.json](materials-manifest.json) records the source URL, file size, and SHA-256 digest of each of the 11 PDFs. Source filenames are preserved. The linked Cloudera VM ZIP was excluded because it is a large software image, not a course PDF.
 
-The course page currently requires HTTP authentication. Credentials are intentionally **not** stored in this repository.
+## Refreshing the material
 
-See [the course index](COURSE_INDEX.md) for the active lecture and lab links, assessment weights, and external resources. For a smaller personal download of the PDFs, run `python3 download_materials.py` and enter the course credentials at the prompts. The `materials/` directory is ignored by Git.\n\n## Mirror the course materials
-
-The repository includes `scripts/scrape_course.py`, which recursively mirrors pages and downloadable assets under the course path while staying on the same host.
-
-### Setup
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Linux/macOS
-# .venv\Scripts\activate  # Windows
-
-pip install -r requirements.txt
-```
-
-Set the credentials only in your shell environment:
-
-```bash
-export BDA_USERNAME="..."
-export BDA_PASSWORD="..."
-```
-
-Windows PowerShell:
-
-```powershell
-$env:BDA_USERNAME="..."
-$env:BDA_PASSWORD="..."
-```
-
-Then run:
-
-```bash
-python scripts/scrape_course.py
-```
-
-The mirror is written to `course-materials/`. The scraper records the final source URL for every downloaded item in `course-materials/manifest.json`.
-
-## Course metadata
-
-Public UAIC course-programme pages identify the discipline as **Big Data Analytics / Analiza bazelor mari de date** and list Prof. PhD. Mihaela Elena Breabăn as course teacher. The protected course page is the authoritative source for current teaching materials.
-
-## Repository policy
-
-- Do not commit passwords, cookies, authorization headers, or browser session files.
-- Preserve the original filenames whenever possible.
-- Keep downloaded material organized by its source URL path.
-- If the source site changes, regenerate `course-materials/` rather than manually renaming mirrored files.
+Run `python3 download_materials.py` for active PDF links. It prompts for the course username and password, then writes to an ignored `materials/` folder. The broader `scripts/scrape_course.py` crawler also exists for local use and writes to ignored `course-materials/`. Neither script stores the login in Git.
