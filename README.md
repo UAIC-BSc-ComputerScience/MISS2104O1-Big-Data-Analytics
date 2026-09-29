@@ -10,7 +10,7 @@ Protected course page:
 
 The course page currently requires HTTP authentication. Credentials are intentionally **not** stored in this repository.
 
-## Mirror the course materials
+See [the course index](COURSE_INDEX.md) for the active lecture and lab links, assessment weights, and external resources. For a smaller personal download of the PDFs, run `python3 download_materials.py` and enter the course credentials at the prompts. The `materials/` directory is ignored by Git.\n\n## Mirror the course materials
 
 The repository includes `scripts/scrape_course.py`, which recursively mirrors pages and downloadable assets under the course path while staying on the same host.
 
