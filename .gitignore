@@ -7,3 +7,5 @@ auth.json
 cookies.txt
 *.cookie
 .DS_Store
+materials/
+course-materials/
